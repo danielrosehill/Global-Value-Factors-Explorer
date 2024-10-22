@@ -71,15 +71,6 @@ Two sets of non-material changes were made and are noted in the changelog:
 - The US dollar sign was stripped throughout to facilitate defining these values as integers in database systems. 
 - The names of 12 countries were edited from their sovereign versions into more vernacular equivalents to support more reader-friendly visualistion. As an example, `Bahamas, The` was edited to `Bahamas`. To disambiguate similar names and avoid any confusion, all territories were also mapped onto their ISO-3166 Alpha-2 values.
 
- 
-## Example Use Cases
-
-- **Visualizing regional CO2 emissions**: Use the GeoJSON files to map emissions per region, alongside the monetary value assigned to these impacts.
-- **Incorporating environmental impacts into financial reports**: Use the JSON data to programmatically integrate the value factors into corporate sustainability accounting models.
-- **Developing dashboards**: Build interactive visualizations that display environmental impacts and their financial equivalents over time and across regions.
-
-
-
 ## Author (Source Database / GVFD)
 
 The International Foundation for Valuing Impacts (IFVI)
