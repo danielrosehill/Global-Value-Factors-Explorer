@@ -1,18 +1,20 @@
 # About The Global Value Factors Explorer Dataset
 
-This repository presents a reformatted version of the IFVI Global Value Factors Database (GVFD), which converts environmental impacts, such as carbon emissions, into monetary values intended for use in financial analysis. 
+This repository is a derivative of the IFVI Global Value Factors Database (GVFD), which converts environmental impacts, such as carbon emissions, into monetary values intended for use in financial analysis. The objective of this repository is to share a version of that database in CSV, JSON and GeoJSON formats to assist those interested in exploring how impact accounting can reshape how we account for value.
 
-The original data source was published by the International Foundation for Valuing Impacts (IFVI) in `XLSM` format in October of 2024 and is intended to provide guidance for organisations wishing to prepare financial accounts that integrate both financial and non-financial line items (this burgenonig field is commonly known as "impact accounting"). 
+The original data source was published by the International Foundation for Valuing Impacts (IFVI) in October of 2024 and is intended to provide guidance for organisations wishing to prepare financial accounts that integrate both financial and non-financial line items. The value factors included in these files are intended to be paired with quantity metrics. The hoped-for result is that companies' financial health will be viewed holistically from a worldview of planetary good.
 
-The (IFVI) Global Value Factor Database is intended for interpretation in conjunction with a set of methodology papers and documentation which are collectively available from their [official website](https://www.ifvi.org). Static versions of those living documents have been included here only for the purpose of data provenance and should neither be regarded as official nor authoritative representations of the IFVI's guidance.
+## Using This Data
+
+The IFVI Data is intended for interpretation in conjunction with a set of methodology papers and documentation which are collectively available from their [official website](https://www.ifvi.org). Static versions of those living documents have been included here only for the purpose of data provenance and should neither be regarded as official nor authoritative representations of the IFVI's guidance.
 
 This derivative dataset was assembled in recognition of the fact that expressing companies' impacts financially is part of a much broader societal movement towards placing companies' impacts front and center in how we, as societies, prioritise and define value creation. 
 
 The GVFD was released by the IFVI with the following note:
 
 *"To drive adoption of impact accounting and meet market needs as soon as possible, IFVI is making available four interim environmental methodologies, prior to completing an official methodology oversight process, including the VTPC Review and Due Process."*
-
-This small effort to extend interest in the dataset is made in exactly that same spirit of pragmatism.  
+ 
+ ---
 
 ## What are value factors?
 
@@ -21,8 +23,6 @@ This small effort to extend interest in the dataset is made in exactly that same
 ## What are these files?
 
 The release of the GVFD upon which this derivative dataset is based (V1, October 2024) contains environmental value factors only. 
-
-Purely for the purpose of organising this repository, land use and land conversion were divided into separate files. The GHGs file is unique in that it contains only value factor (GHG emissions, $236/tCO2). 
 
  The topics as developed by the IFVI - in partnership with the Value Balancing Alliance (VBA) - are:
 
@@ -34,22 +34,10 @@ Purely for the purpose of organising this repository, land use and land conversi
 | **Water Pollution**       | Impacts from 104 possible corporate water pollutants on human health and eutrophication.                                                 |
 
 ---
+ 
+ ## Licensing
 
-## Why source data is essential
-
-In order to translate companies' impacts into monetary terms as impact accounting envisions, these value factors need to be paired with the matching datapoints for those same impacts. 
-
-The context here is important. The IFVI and VBA released their Database with the intention of helping account preparers to use these factors in the preparation of "impact accounts". 
-
-The value factors can also be applied externally, however, which is the use-case that this derivative dataset was designed to support ("externally" may mean researchers using public accounts to retrospectively apply these value factors to model what their monetary effects might have been according to the IFVI methodology).
-
-In either case, a second dataset is required to make *this* data useful!
-
----
-
-## Licensing
-
-This repository contains a derivative work of the Global Value Factors Database (GVFD). Those wishing to use the source data for any downstream applications or commercial purposes should refer directly to the official database and its terms of use, which are available at IFVI.org. The terms provided there, not here, apply to any formal use of the data.
+This repository contains a derivative work of the Global Value Factors Database (GVFD). Those wishing to use the source data for any downstream applications or commercial purposes should refer directly to the official database and its terms of use, which are available at IFVI.org. The terms provided there, not here, apply to any formal use of the data. Any mistakes or inaccuracies are those of this dataset.
 
 ### Versioning
 
@@ -57,34 +45,31 @@ This repository reflects version 1 of the GVFD as released on October 15th. No w
 
 This repository strives to mirror the original GVFD release as closely and faithfully as possible. However, applying the database for preparing financial accounts or other official use requires utilizing the database in conjunction with the detailed user documentation, which is not provided in this repository.
 
-### Intended Access
+ ---
 
-The purpose of this repository (rather) is to assist non-commercial users, such as academics and researchers, in analyzing and understanding the dataset for exploratory use-cases, such as seeking to understand the effects that monetising non-financial impacts would have on the financial performance of publicy-traded companies.
+ ## Data Formatting
 
-This derivative dataset is non-official and is not endorsed by the IFVI, nor has it been produced or undertaken on their behalf.
-
----
-
-## Contents
-
-This repository includes:
-- **JSON Files**: Structured data representing value factors for various environmental impacts.
-- **GeoJSON Files**: Geospatial data to allow for visualizing value factors across geographic regions.
-- **Documentation**: Information on how to use and interpret the data.
-
----
+ The source data has been reformatted and reshaped to hopefully provide useful material for a few different analytical perspectives. These are listed below:
  
-## Data Structure
+| **Format**                  | **Description**                                                                                                                                                                                               |
+|-----------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **By Methodology**           | This format contains the database in JSON arrays, organized to reflect the parameters in the methodologies.                                                                                                   |
+| **By Methodology, By Country** | This format closely mirrors the source database, with the exception of land use and land conversion, which were split into two files to keep the tables separate.                                             |
+| **By Territory**             | This folder organizes the data from a geographical perspective, by continent, territory, and US state. US states appear in one methodology. The JSON files aggregate data from various methodology tabs. |
 
-### JSON Files
-Each JSON file provides:
-- **Value factors** for specific environmental impacts, including emissions, resource use, and waste.
-- **Monetary rates** associated with each factor (e.g., cost per tonne of CO2 emissions).
-- **Timestamps** and data versioning information where applicable.
+Additional resources are:
 
-### GeoJSON Files
- 
- Coming soon
+- The data in CSV format.
+- The metadata folder contains non-data items like notes that appeared on the corresponding tabs of the original Database. The files are named accordingly.
+
+## Data Modifications
+
+No material changes were made to the source data and all the files shared here represent best-effort attempts at reshaping and reformatting the data purely for analytical purposes.
+
+Two sets of non-material changes were made and are noted in the changelog:
+
+- The US dollar sign was stripped throughout to facilitate defining these values as integers in database systems. 
+- The names of 12 countries were edited from their sovereign versions into more vernacular equivalents to support more reader-friendly visualistion. As an example, `Bahamas, The` was edited to `Bahamas`. To disambiguate similar names and avoid any confusion, all territories were also mapped onto their ISO-3166 Alpha-2 values.
 
  
 ## Example Use Cases
@@ -93,15 +78,7 @@ Each JSON file provides:
 - **Incorporating environmental impacts into financial reports**: Use the JSON data to programmatically integrate the value factors into corporate sustainability accounting models.
 - **Developing dashboards**: Build interactive visualizations that display environmental impacts and their financial equivalents over time and across regions.
 
-----
 
-## Source Data
-
-### IFVI GVFD V1
-
-The source data for the Global Value Factor Database (in `Source-Data`) was gathered, with consent, from the website of the International Foundation for Valuing Impacts (IFVI), ifvi.org between 21-22 October 2024.
-
----
 
 ## Author (Source Database / GVFD)
 
