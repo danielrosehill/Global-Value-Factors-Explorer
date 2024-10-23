@@ -1,6 +1,6 @@
 # IFVI Global Value Factors Database (GVFD) V1
 
-## Data Manifest; Territories By Type
+## Data Manifest; Territories By Type & ISO-3166 (Alpha -2)
 
 ---
 
