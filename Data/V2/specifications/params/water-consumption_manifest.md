@@ -1,4 +1,4 @@
-# Manifest for water-consumption.csv
+# Water Consumption Data Manifest
 
 ## Column Overview
 

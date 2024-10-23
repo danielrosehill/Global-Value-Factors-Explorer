@@ -1,4 +1,4 @@
-# Manifest for waste.csv
+# Waste Data Manifest
 
 ## Column Overview
 

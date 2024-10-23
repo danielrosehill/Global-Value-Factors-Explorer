@@ -1,4 +1,4 @@
-# Manifest for land-conversion.csv
+# Land Conversion Data Manifest
 
 ## Column Overview
 

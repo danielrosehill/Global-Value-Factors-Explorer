@@ -1,4 +1,4 @@
-# Manifest for land-use.csv
+# Land Use Data Manifest
 
 ## Column Overview
 

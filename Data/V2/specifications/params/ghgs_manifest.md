@@ -1,4 +1,4 @@
-# Manifest for ghgs.csv
+# GHG Data Manifest
 
 ## Column Overview
 

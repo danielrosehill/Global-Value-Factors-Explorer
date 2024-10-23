@@ -1,4 +1,4 @@
-# Manifest for airpollution.csv
+# Air Pollution Methodology - Manifest
 
 ## Column Overview
 

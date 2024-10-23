@@ -1,4 +1,4 @@
-# Manifest for water-pollution.csv
+# Water Pollution Data Manifest 
 
 ## Column Overview
 
