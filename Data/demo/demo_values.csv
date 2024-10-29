@@ -28,11 +28,11 @@ Afghanistan,Waste,Non-Hazardous,Unspecified,Waste Air pollution,Waste_Non-Hazard
 Afghanistan,Waste,Non-Hazardous,Unspecified,Heavy metals and dioxins,Waste_Non-Hazardous_Unspecified_Heavy metals and dioxins,$/kg,0.00
 Afghanistan,Waste,Non-Hazardous,Unspecified,Disamenity,Waste_Non-Hazardous_Unspecified_Disamenity,$/kg,45.96
 Afghanistan,Waste,Non-Hazardous,Unspecified,Waste GHGs,Waste_Non-Hazardous_Unspecified_Waste GHGs,$/kg,179.15
-Afghanistan,Air Pollution,PM25,Urban,Primary Health,Air Pollution_PM25_Urban_Primary Health,$/tonne,"40,495.28"
-Afghanistan,Air Pollution,PM25,Peri-Urban,Primary Health,Air Pollution_PM25_Peri-Urban_Primary Health,$/tonne,"34,468.58"
-Afghanistan,Air Pollution,PM25,Rural,Primary Health,Air Pollution_PM25_Rural_Primary Health,$/tonne,"19,386.52"
-Afghanistan,Air Pollution,PM25,Transport,Primary Health,Air Pollution_PM25_Transport_Primary Health,$/tonne,"31,346.36"
-Afghanistan,Air Pollution,PM25,N/A for PM2.5,Visibility,Air Pollution_PM25_N/A for PM2.5_Visibility,$/tonne,4.78
+Afghanistan,Air Pollution,PM2.5,Urban,Primary Health,Air Pollution_PM2.5_Urban_Primary Health,$/tonne,"40,495.28"
+Afghanistan,Air Pollution,PM2.5,Peri-Urban,Primary Health,Air Pollution_PM2.5_Peri-Urban_Primary Health,$/tonne,"34,468.58"
+Afghanistan,Air Pollution,PM2.5,Rural,Primary Health,Air Pollution_PM2.5_Rural_Primary Health,$/tonne,"19,386.52"
+Afghanistan,Air Pollution,PM2.5,Transport,Primary Health,Air Pollution_PM2.5_Transport_Primary Health,$/tonne,"31,346.36"
+Afghanistan,Air Pollution,PM2.5,N/A for PM2.5,Visibility,Air Pollution_PM2.5_N/A for PM2.5_Visibility,$/tonne,4.78
 Afghanistan,Air Pollution,SOx,Urban,Primary Health,Air Pollution_SOx_Urban_Primary Health,$/tonne,"13,398.15"
 Afghanistan,Air Pollution,SOx,Peri-Urban,Primary Health,Air Pollution_SOx_Peri-Urban_Primary Health,$/tonne,"13,345.45"
 Afghanistan,Air Pollution,SOx,Rural,Primary Health,Air Pollution_SOx_Rural_Primary Health,$/tonne,"6,694.38"
@@ -483,11 +483,11 @@ Albania,Waste,Non-Hazardous,Unspecified,Waste Air pollution,Waste_Non-Hazardous_
 Albania,Waste,Non-Hazardous,Unspecified,Heavy metals and dioxins,Waste_Non-Hazardous_Unspecified_Heavy metals and dioxins,$/kg,0.00
 Albania,Waste,Non-Hazardous,Unspecified,Disamenity,Waste_Non-Hazardous_Unspecified_Disamenity,$/kg,152.67
 Albania,Waste,Non-Hazardous,Unspecified,Waste GHGs,Waste_Non-Hazardous_Unspecified_Waste GHGs,$/kg,187.00
-Albania,Air Pollution,PM25,Urban,Primary Health,Air Pollution_PM25_Urban_Primary Health,$/tonne,"8,965.10"
-Albania,Air Pollution,PM25,Peri-Urban,Primary Health,Air Pollution_PM25_Peri-Urban_Primary Health,$/tonne,"11,023.59"
-Albania,Air Pollution,PM25,Rural,Primary Health,Air Pollution_PM25_Rural_Primary Health,$/tonne,"5,019.20"
-Albania,Air Pollution,PM25,Transport,Primary Health,Air Pollution_PM25_Transport_Primary Health,$/tonne,"10,135.75"
-Albania,Air Pollution,PM25,N/A for PM2.5,Visibility,Air Pollution_PM25_N/A for PM2.5_Visibility,$/tonne,12.50
+Albania,Air Pollution,PM2.5,Urban,Primary Health,Air Pollution_PM2.5_Urban_Primary Health,$/tonne,"8,965.10"
+Albania,Air Pollution,PM2.5,Peri-Urban,Primary Health,Air Pollution_PM2.5_Peri-Urban_Primary Health,$/tonne,"11,023.59"
+Albania,Air Pollution,PM2.5,Rural,Primary Health,Air Pollution_PM2.5_Rural_Primary Health,$/tonne,"5,019.20"
+Albania,Air Pollution,PM2.5,Transport,Primary Health,Air Pollution_PM2.5_Transport_Primary Health,$/tonne,"10,135.75"
+Albania,Air Pollution,PM2.5,N/A for PM2.5,Visibility,Air Pollution_PM2.5_N/A for PM2.5_Visibility,$/tonne,12.50
 Albania,Air Pollution,SOx,Urban,Primary Health,Air Pollution_SOx_Urban_Primary Health,$/tonne,"3,019.46"
 Albania,Air Pollution,SOx,Peri-Urban,Primary Health,Air Pollution_SOx_Peri-Urban_Primary Health,$/tonne,"3,771.14"
 Albania,Air Pollution,SOx,Rural,Primary Health,Air Pollution_SOx_Rural_Primary Health,$/tonne,"1,820.49"

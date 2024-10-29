@@ -2,43 +2,43 @@
     "territory": "Mali",
     "data": [
         {
-            "Category": "PM25",
+            "Category": "PM2.5",
             "Location": "Urban",
             "Impact": "Primary Health",
             "Units": "/metric ton",
-            "Reference": "Air Pollution_PM25_Urban_Primary Health",
+            "Reference": "Air Pollution_PM2.5_Urban_Primary Health",
             "Value": "46,718.79"
         },
         {
-            "Category": "PM25",
+            "Category": "PM2.5",
             "Location": "Peri-Urban",
             "Impact": "Primary Health",
             "Units": "/metric ton",
-            "Reference": "Air Pollution_PM25_Peri-Urban_Primary Health",
+            "Reference": "Air Pollution_PM2.5_Peri-Urban_Primary Health",
             "Value": "36,063.93"
         },
         {
-            "Category": "PM25",
+            "Category": "PM2.5",
             "Location": "Rural",
             "Impact": "Primary Health",
             "Units": "/metric ton",
-            "Reference": "Air Pollution_PM25_Rural_Primary Health",
+            "Reference": "Air Pollution_PM2.5_Rural_Primary Health",
             "Value": "21,052.93"
         },
         {
-            "Category": "PM25",
+            "Category": "PM2.5",
             "Location": "Transport",
             "Impact": "Primary Health",
             "Units": "/metric ton",
-            "Reference": "Air Pollution_PM25_Transport_Primary Health",
+            "Reference": "Air Pollution_PM2.5_Transport_Primary Health",
             "Value": "33,795.36"
         },
         {
-            "Category": "PM25",
+            "Category": "PM2.5",
             "Location": "N/A for PM2.5",
             "Impact": "Visibility",
             "Units": "/metric ton",
-            "Reference": "Air Pollution_PM25_N/A for PM2.5_Visibility",
+            "Reference": "Air Pollution_PM2.5_N/A for PM2.5_Visibility",
             "Value": "0.89"
         },
         {

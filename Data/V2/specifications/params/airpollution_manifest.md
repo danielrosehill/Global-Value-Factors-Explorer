@@ -6,7 +6,7 @@
 
 Parameters:
 
-- PM25
+- PM2.5
 - SOx
 - NH3
 - PM10
@@ -47,11 +47,11 @@ Parameters:
 
 Parameters:
 
-- Air Pollution_PM25_Urban_Primary Health
-- Air Pollution_PM25_Peri-Urban_Primary Health
-- Air Pollution_PM25_Rural_Primary Health
-- Air Pollution_PM25_Transport_Primary Health
-- Air Pollution_PM25_N/A for PM2.5_Visibility
+- Air Pollution_PM2.5_Urban_Primary Health
+- Air Pollution_PM2.5_Peri-Urban_Primary Health
+- Air Pollution_PM2.5_Rural_Primary Health
+- Air Pollution_PM2.5_Transport_Primary Health
+- Air Pollution_PM2.5_N/A for PM2.5_Visibility
 - Air Pollution_SOx_Urban_Primary Health
 - Air Pollution_SOx_Peri-Urban_Primary Health
 - Air Pollution_SOx_Rural_Primary Health

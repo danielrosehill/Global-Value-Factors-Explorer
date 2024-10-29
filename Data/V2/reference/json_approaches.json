@@ -4,11 +4,11 @@
             "Description": "Country as the Top Level",
             "Structure": {
                 "Country": {
-                    "Category": "PM25",
+                    "Category": "PM2.5",
                     "Location": "Urban",
                     "Impact": "Primary Health",
                     "Units": "/metric ton",
-                    "Reference": "Air Pollution_PM25_Urban_Primary Health",
+                    "Reference": "Air Pollution_PM2.5_Urban_Primary Health",
                     "Value": "40,495.28"
                 }
             }
@@ -18,10 +18,10 @@
             "Structure": {
                 "Primary Health": {
                     "Country": {
-                        "Category": "PM25",
+                        "Category": "PM2.5",
                         "Location": "Urban",
                         "Units": "/metric ton",
-                        "Reference": "Air Pollution_PM25_Urban_Primary Health",
+                        "Reference": "Air Pollution_PM2.5_Urban_Primary Health",
                         "Value": "40,495.28"
                     }
                 }
@@ -30,12 +30,12 @@
         "3": {
             "Description": "Category as the Top Level",
             "Structure": {
-                "PM25": {
+                "PM2.5": {
                     "Country": {
                         "Location": "Urban",
                         "Impact": "Primary Health",
                         "Units": "/metric ton",
-                        "Reference": "Air Pollution_PM25_Urban_Primary Health",
+                        "Reference": "Air Pollution_PM2.5_Urban_Primary Health",
                         "Value": "40,495.28"
                     }
                 }
@@ -46,10 +46,10 @@
             "Structure": {
                 "Country": {
                     "Primary Health": {
-                        "Category": "PM25",
+                        "Category": "PM2.5",
                         "Location": "Urban",
                         "Units": "/metric ton",
-                        "Reference": "Air Pollution_PM25_Urban_Primary Health",
+                        "Reference": "Air Pollution_PM2.5_Urban_Primary Health",
                         "Value": "40,495.28"
                     }
                 }
@@ -60,10 +60,10 @@
             "Structure": {
                 "Urban": {
                     "Country": {
-                        "Category": "PM25",
+                        "Category": "PM2.5",
                         "Impact": "Primary Health",
                         "Units": "/metric ton",
-                        "Reference": "Air Pollution_PM25_Urban_Primary Health",
+                        "Reference": "Air Pollution_PM2.5_Urban_Primary Health",
                         "Value": "40,495.28"
                     }
                 }
@@ -73,11 +73,11 @@
             "Description": "Nested by Country, then Category",
             "Structure": {
                 "Country": {
-                    "PM25": {
+                    "PM2.5": {
                         "Location": "Urban",
                         "Impact": "Primary Health",
                         "Units": "/metric ton",
-                        "Reference": "Air Pollution_PM25_Urban_Primary Health",
+                        "Reference": "Air Pollution_PM2.5_Urban_Primary Health",
                         "Value": "40,495.28"
                     }
                 }
@@ -89,11 +89,11 @@
                 "Country": {
                     "Total Value": "200,000",
                     "Details": {
-                        "Category": "PM25",
+                        "Category": "PM2.5",
                         "Location": "Urban",
                         "Impact": "Primary Health",
                         "Units": "/metric ton",
-                        "Reference": "Air Pollution_PM25_Urban_Primary Health",
+                        "Reference": "Air Pollution_PM2.5_Urban_Primary Health",
                         "Value": "40,495.28"
                     }
                 }
