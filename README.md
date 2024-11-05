@@ -37,7 +37,7 @@ The release of the GVFD upon which this derivative dataset is based (V1, October
  
  ## Licensing
 
-This repository contains a derivative work of the Global Value Factors Database (GVFD). Those wishing to use the source data for any downstream applications or commercial purposes should refer directly to the official database and its terms of use, which are available at IFVI.org. The terms provided there, not here, apply to any formal use of the data. Any mistakes or inaccuracies are those of this dataset.
+The derivative dataset in this repository is subject to the same terms of use of the original database, available as `license.md` at the repository root. 
 
 ### Versioning
 
