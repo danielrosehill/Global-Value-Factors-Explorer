@@ -1,0 +1,103 @@
+{
+    "Approaches": {
+        "1": {
+            "Description": "Country as the Top Level",
+            "Structure": {
+                "Country": {
+                    "Category": "PM2.5",
+                    "Location": "Urban",
+                    "Impact": "Primary Health",
+                    "Units": "/metric ton",
+                    "Reference": "Air Pollution_PM2.5_Urban_Primary Health",
+                    "Value": "40,495.28"
+                }
+            }
+        },
+        "2": {
+            "Description": "Impact as the Top Level",
+            "Structure": {
+                "Primary Health": {
+                    "Country": {
+                        "Category": "PM2.5",
+                        "Location": "Urban",
+                        "Units": "/metric ton",
+                        "Reference": "Air Pollution_PM2.5_Urban_Primary Health",
+                        "Value": "40,495.28"
+                    }
+                }
+            }
+        },
+        "3": {
+            "Description": "Category as the Top Level",
+            "Structure": {
+                "PM2.5": {
+                    "Country": {
+                        "Location": "Urban",
+                        "Impact": "Primary Health",
+                        "Units": "/metric ton",
+                        "Reference": "Air Pollution_PM2.5_Urban_Primary Health",
+                        "Value": "40,495.28"
+                    }
+                }
+            }
+        },
+        "4": {
+            "Description": "Combination of Country and Impact",
+            "Structure": {
+                "Country": {
+                    "Primary Health": {
+                        "Category": "PM2.5",
+                        "Location": "Urban",
+                        "Units": "/metric ton",
+                        "Reference": "Air Pollution_PM2.5_Urban_Primary Health",
+                        "Value": "40,495.28"
+                    }
+                }
+            }
+        },
+        "5": {
+            "Description": "Location as the Top Level",
+            "Structure": {
+                "Urban": {
+                    "Country": {
+                        "Category": "PM2.5",
+                        "Impact": "Primary Health",
+                        "Units": "/metric ton",
+                        "Reference": "Air Pollution_PM2.5_Urban_Primary Health",
+                        "Value": "40,495.28"
+                    }
+                }
+            }
+        },
+        "6": {
+            "Description": "Nested by Country, then Category",
+            "Structure": {
+                "Country": {
+                    "PM2.5": {
+                        "Location": "Urban",
+                        "Impact": "Primary Health",
+                        "Units": "/metric ton",
+                        "Reference": "Air Pollution_PM2.5_Urban_Primary Health",
+                        "Value": "40,495.28"
+                    }
+                }
+            }
+        },
+        "7": {
+            "Description": "Aggregated Values",
+            "Structure": {
+                "Country": {
+                    "Total Value": "200,000",
+                    "Details": {
+                        "Category": "PM2.5",
+                        "Location": "Urban",
+                        "Impact": "Primary Health",
+                        "Units": "/metric ton",
+                        "Reference": "Air Pollution_PM2.5_Urban_Primary Health",
+                        "Value": "40,495.28"
+                    }
+                }
+            }
+        }
+    }
+}
