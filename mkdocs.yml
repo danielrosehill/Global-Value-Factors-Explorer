@@ -1,0 +1,16 @@
+site_name: IFVI GVFD Derivative Database
+
+theme:
+  name: material
+
+nav:
+  - Home: index.md
+
+plugins:
+    - search
+    - gen_nav
+
+markdown_extensions:
+  - pymdownx.superfences
+  - pymdownx.highlight
+  - pymdownx.inlinehilite
