@@ -26,6 +26,9 @@ nav:
       - Water Consumption: specs/waterconsumption
       - Water Pollution: specs/waterpollution
       - Territories: specs/geo/territories
+  - Notes: 
+      - Changelog: /changelog
+      - Release Notes: /release-notes/v2
   - License: /license
 
 plugins:
