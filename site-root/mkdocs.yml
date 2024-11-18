@@ -10,6 +10,9 @@ extra_css:
 
 nav:
   - Home: /
+ 
+  - About: 
+    - More Info: /about/
   - Source Data (IFVI):
      - IFVI: https://www.ifvi.org
      - GVFD: 'https://ifvi.org/methodology/environmental-topic-methodology/interim-methodologies/#GlobalValueFactorDatabase'
@@ -42,3 +45,5 @@ markdown_extensions:
   - pymdownx.highlight
   - pymdownx.inlinehilite
   - attr_list
+  - admonition
+  - footnotes
