@@ -29,13 +29,16 @@ nav:
   - Notes: 
       - Changelog: /changelog
       - Release Notes: /release-notes/v2
+  - Original Docs (Copy): /docs
   - License: /license
 
 plugins:
   - search
   - open-in-new-tab
+  - mkdocs-pdf
 
 markdown_extensions:
   - pymdownx.superfences
   - pymdownx.highlight
   - pymdownx.inlinehilite
+  - attr_list
