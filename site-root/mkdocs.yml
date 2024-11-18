@@ -2,13 +2,15 @@ site_name: IFVI GVFD Derivative Database
 
 theme:
   name: material
-
+  features:
+    - navigation.tabs
+    - navigation.sections
 nav:
   - Home: index.md
 
 plugins:
-    - search
-    - gen_nav
+  - search
+  - gen_nav
 
 markdown_extensions:
   - pymdownx.superfences

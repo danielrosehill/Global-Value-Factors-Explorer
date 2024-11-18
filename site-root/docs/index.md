@@ -1,8 +1,6 @@
 # IFVI Value Factors - Derivative Dataset For Analysis
 
-[![Visit Website](https://img.shields.io/badge/Visit%20Website-blue)](https://gvfd-analysis.bydanielrosehill.com/)
-
-This repository is a derivative of the IFVI Global Value Factors Database (GVFD), which converts environmental impacts, such as carbon emissions, into monetary values intended for use in financial analysis. The objective of this repository is to share a version of that database in CSV, JSON and GeoJSON formats to assist those interested in exploring how impact accounting can reshape how we account for value.
+ This data repository is a derivative of the IFVI Global Value Factors Database (GVFD), which converts environmental impacts, such as carbon emissions, into monetary values intended for use in financial analysis. The objective of this repository is to share a version of that database in CSV, JSON and GeoJSON formats to assist those interested in exploring how impact accounting can reshape how we account for value.
 
 The original data source was published by the International Foundation for Valuing Impacts (IFVI) in October of 2024 and is intended to provide guidance for organisations wishing to prepare financial accounts that integrate both financial and non-financial line items. The value factors included in these files are intended to be paired with quantity metrics. The hoped-for result is that companies' financial health will be viewed holistically from a worldview of planetary good.
 
