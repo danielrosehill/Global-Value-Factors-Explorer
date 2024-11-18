@@ -4,6 +4,7 @@ theme:
   name: material
   features:
     - navigation.sections
+    - content.code.copy
 
 extra_css:
   - css/mycss.css
@@ -13,6 +14,7 @@ nav:
  
   - About: 
     - More Info: /about/
+    - Data Samples: /samples
   - Source Data (IFVI):
      - IFVI: https://www.ifvi.org
      - GVFD: 'https://ifvi.org/methodology/environmental-topic-methodology/interim-methodologies/#GlobalValueFactorDatabase'
@@ -30,6 +32,7 @@ nav:
       - Water Pollution: specs/waterpollution
       - Territories: specs/geo/territories
   - Notes: 
+      - Explanatory Notes: /notes
       - Changelog: /changelog
       - Release Notes: /release-notes/v2
   - Original Docs (Copy): /docs
@@ -39,6 +42,7 @@ plugins:
   - search
   - open-in-new-tab
   - mkdocs-pdf
+  - section-index
 
 markdown_extensions:
   - pymdownx.superfences
