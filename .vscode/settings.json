@@ -4,6 +4,14 @@
         {
             "filePath": "docs",
             "group": "Default"
+        },
+        {
+            "filePath": "site-root",
+            "group": "Default"
+        },
+        {
+            "filePath": "site-root/docs",
+            "group": "Default"
         }
     ]
 }

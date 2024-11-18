@@ -1,3 +1,7 @@
+---
+title: Aggregated Data Parameters
+---
+
 ## Air Pollution: Data Description
 
 | **Title**               | **Details**                                                                                                                                                                                                                                           |

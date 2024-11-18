@@ -1,0 +1,39 @@
+/* H1 styling with a prominent divider */
+h1 {
+    position: relative;
+    padding-bottom: 10px; /* Space between text and divider */
+    font-size: 2em;
+    font-weight: bold;
+}
+
+h1::after {
+    content: '';
+    display: block;
+    width: 50%; /* Divider width */
+    height: 2px; /* Divider thickness */
+    background: black; /* Divider color */
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    opacity: 1; /* Full opacity for prominence */
+}
+
+/* H2 styling with a less prominent divider */
+h2 {
+    position: relative;
+    padding-bottom: 8px; /* Space between text and divider */
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+h2::after {
+    content: '';
+    display: block;
+    width: 40%; /* Slightly shorter divider */
+    height: 1.5px; /* Thinner divider */
+    background: grey; /* Lighter color for less prominence */
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    opacity: 0.7; /* Reduced opacity for less prominence */
+}

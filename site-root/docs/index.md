@@ -1,75 +1,74 @@
-# IFVI Value Factors - Derivative Dataset For Analysis
+# Explore the IFVI Value Factors Dataset: Quantifying Environmental Impact in Financial Terms
 
- This data repository is a derivative of the IFVI Global Value Factors Database (GVFD), which converts environmental impacts, such as carbon emissions, into monetary values intended for use in financial analysis. The objective of this repository is to share a version of that database in CSV, JSON and GeoJSON formats to assist those interested in exploring how impact accounting can reshape how we account for value.
+[![Data Format: CSV, JSON, GeoJSON](https://img.shields.io/badge/Data%20Format-CSV%2C%20JSON%2C%20GeoJSON-blue)](https://www.ifvi.org)
+[![Source: IFVI](https://img.shields.io/badge/Source-IFVI-brightgreen)](https://www.ifvi.org)
 
-The original data source was published by the International Foundation for Valuing Impacts (IFVI) in October of 2024 and is intended to provide guidance for organisations wishing to prepare financial accounts that integrate both financial and non-financial line items. The value factors included in these files are intended to be paired with quantity metrics. The hoped-for result is that companies' financial health will be viewed holistically from a worldview of planetary good.
+This repository provides a resource for understanding the financial implications of environmental impact. 
+
+Derived from the IFVI Global Value Factors Database (GVFD), it translates environmental impacts (e.g., carbon emissions) into monetary values, enabling deeper financial analysis and a more holistic understanding of value creation.  
+
+The data is available in accessible `CSV`, `JSON`, and `GeoJSON` formats (`GeoJSON` coming soon!), empowering data analysts, NGOs, and anyone else curious to explore the transformative potential of impact accounting.
+
+This dataset is built upon the IFVI's October 2024 release, offering a valuable snapshot of how financial and non-financial performance can be integrated for a more sustainable future. 
+
+For the complete methodology and latest updates, refer to the official [IFVI website](https://www.ifvi.org).
+
+Static versions of their documentation are included here for historical context.
+
 
 ## Using This Data
 
-The IFVI Data is intended for interpretation in conjunction with a set of methodology papers and documentation which are collectively available from their [official website](https://www.ifvi.org). Static versions of those living documents have been included here only for the purpose of data provenance and should neither be regarded as official nor authoritative representations of the IFVI's guidance.
-
-This derivative dataset was assembled in recognition of the fact that expressing companies' impacts financially is part of a much broader societal movement towards placing companies' impacts front and center in how we, as societies, prioritise and define value creation. 
-
-The GVFD was released by the IFVI with the following note:
+The IFVI Data helps you understand the financial implications of environmental impacts. It's part of a larger movement to put impact front and center in how we define and prioritize value.  The GVFD was released with the following note:
 
 *"To drive adoption of impact accounting and meet market needs as soon as possible, IFVI is making available four interim environmental methodologies, prior to completing an official methodology oversight process, including the VTPC Review and Due Process."*
- 
- ---
+
 
 ## What are value factors?
 
-"Value factors" convert quantity metrics (like tonnes of carbon dioxide emitted) into monetary terms. For convenience, the GVFD is standardised on the US dollar but is intended for global consideration regardless of the preparers' local currency. 
+"Value factors" convert quantity metrics (like tons of carbon dioxide emitted) into monetary terms.  The GVFD is standardized on the US dollar for convenience but is intended for global consideration.
 
 ## What are these files?
 
-The release of the GVFD upon which this derivative dataset is based (V1, October 2024) contains environmental value factors only. 
+This release (V1, October 2024) contains environmental value factors only.  The topics, developed by the IFVI in partnership with the Value Balancing Alliance (VBA), are:
 
- The topics as developed by the IFVI - in partnership with the Value Balancing Alliance (VBA) - are:
-
- | Category                 | Description                                                                                                                              |
+| Category                 | Description                                                                                                                              |
 |--------------------------|------------------------------------------------------------------------------------------------------------------------------------------|
-| **Air Pollution**         | Impacts from up to 6 possible air pollutants of companies on health, agricultural productivity, and other impacts.                       |
+| **Air Pollution**         | Impacts from up to 6 air pollutants on health, agricultural productivity, and other impacts.                       |
 | **Land Use and Conversion**| Impacts on land occupied or converted by a company, covering the loss of ecosystem services in different locations and for different land use types. |
-| **Waste**                 | Impacts from the mass of waste generated and disposed of by various methods (such as incineration and waste to landfill), including impacts on leachate, disamenity, climate change, and air pollution. |
-| **Water Pollution**       | Impacts from 104 possible corporate water pollutants on human health and eutrophication.                                                 |
+| **Waste**                 | Impacts from waste generated and disposed of by various methods (e.g., incineration and landfill), including impacts on leachate, disamenity, climate change, and air pollution. |
+| **Water Pollution**       | Impacts from 104 possible water pollutants on human health and eutrophication.                                                 |
 
----
- 
- ## Licensing
 
-The derivative dataset in this repository is subject to the same terms of use of the original database, available as `license.md` at the repository root. 
+## Licensing
+
+This derivative dataset is subject to the same terms of use as the original database, available as `license.md` at the repository root. 
 
 ### Versioning
 
-This repository reflects version 1 of the GVFD as released on October 15th. No warranty is offered, nor is any claim made, that this repository reflects the most current or up-to-date version of the GVFD. Users seeking the latest data should refer to the IFVI website for official releases and updates.
+This repository reflects version 1 of the GVFD (October 15th).  Users seeking the latest data should refer to the IFVI website. This repository strives to mirror the original GVFD release. However, applying the database for official use requires utilizing the database in conjunction with the detailed user documentation, not provided in this repository.
 
-This repository strives to mirror the original GVFD release as closely and faithfully as possible. However, applying the database for preparing financial accounts or other official use requires utilizing the database in conjunction with the detailed user documentation, which is not provided in this repository.
+## Data Formatting
 
- ---
+The source data has been reformatted for various analytical perspectives:
 
- ## Data Formatting
-
- The source data has been reformatted and reshaped to hopefully provide useful material for a few different analytical perspectives. These are listed below:
- 
 | **Format**                  | **Description**                                                                                                                                                                                               |
 |-----------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **By Methodology**           | This format contains the database in JSON arrays, organized to reflect the parameters in the methodologies.                                                                                                   |
-| **By Methodology, By Country** | This format closely mirrors the source database, with the exception of land use and land conversion, which were split into two files to keep the tables separate.                                             |
-| **By Territory**             | This folder organizes the data from a geographical perspective, by continent, territory, and US state. US states appear in one methodology. The JSON files aggregate data from various methodology tabs. |
+| **By Methodology**           | JSON arrays organized by methodology parameters.                                                                                                   |
+| **By Methodology, By Country** | Closely mirrors the source database (land use and conversion are split into two files).                                              |
+| **By Territory**             | Organizes data geographically (by continent, territory, and US state).  US states appear in one methodology. JSON files aggregate data from various methodology tabs. |
 
-Additional resources are:
+Additional resources:
 
-- The data in CSV format.
-- The metadata folder contains non-data items like notes that appeared on the corresponding tabs of the original Database. The files are named accordingly.
+- Data in CSV format.
+- The `metadata` folder contains non-data items (e.g., notes) from the original database.
+
 
 ## Data Modifications
 
-No material changes were made to the source data and all the files shared here represent best-effort attempts at reshaping and reformatting the data purely for analytical purposes.
+No material changes were made to the source data.  Non-material changes (see changelog):
 
-Two sets of non-material changes were made and are noted in the changelog:
-
-- The US dollar sign was stripped throughout to facilitate defining these values as integers in database systems. 
-- The names of 12 countries were edited from their sovereign versions into more vernacular equivalents to support more reader-friendly visualistion. As an example, `Bahamas, The` was edited to `Bahamas`. To disambiguate similar names and avoid any confusion, all territories were also mapped onto their ISO-3166 Alpha-2 values.
+- The US dollar sign was removed to facilitate use in database systems.
+- 12 country names were edited for readability (e.g., "Bahamas, The" to "Bahamas").  All territories are mapped to their ISO-3166 Alpha-2 values.
 
 ## Author (Source Database / GVFD)
 

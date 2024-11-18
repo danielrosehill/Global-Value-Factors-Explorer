@@ -3,14 +3,34 @@ site_name: IFVI GVFD Derivative Database
 theme:
   name: material
   features:
-    - navigation.tabs
     - navigation.sections
+
+extra_css:
+  - css/mycss.css
+
 nav:
-  - Home: index.md
+  - Home: /
+  - Source Data (IFVI):
+     - IFVI: https://www.ifvi.org
+     - GVFD: 'https://ifvi.org/methodology/environmental-topic-methodology/interim-methodologies/#GlobalValueFactorDatabase'
+  - Source Data (Derivative Dataset):
+     - Github - Repo: https://github.com/danielrosehill/Global-Value-Factors-Explorer
+     - Github - Data Root: https://github.com/danielrosehill/Global-Value-Factors-Explorer/tree/main/Data/GVFD-Deriv/data
+     - Kaggle: https://www.kaggle.com/datasets/danielrosehill/global-value-factors-derivative-analysis-data
+  - Data Parameters:
+      - Aggregated: specs/aggregated
+      - Air Pollution: specs/airpollution
+      - GHG: specs/ghg
+      - Land Use: specs/landuse
+      - Waste: specs/waste
+      - Water Consumption: specs/waterconsumption
+      - Water Pollution: specs/waterpollution
+      - Territories: specs/geo/territories
+  - License: /license
 
 plugins:
   - search
-  - gen_nav
+  - open-in-new-tab
 
 markdown_extensions:
   - pymdownx.superfences
