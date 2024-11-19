@@ -1,6 +1,0 @@
-mkdocs
-mkdocs-material
-mkdocs-pdf
-mkdocs-gen-nav-plugin
-mkdocs-open-in-new-tab
-mkdocs-section-index
