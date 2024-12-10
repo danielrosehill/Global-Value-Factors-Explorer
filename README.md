@@ -1,9 +1,5 @@
 # About The Global Value Factors Explorer Dataset
 
-[![Visit Website](https://img.shields.io/badge/Visit%20Website-blue)](https://gvfd-analysis.bydanielrosehill.com/)
-
-IFVI Value Factors Stats Overview
-
 The Global Value Factors Database, released by the International Foundation for Valuing Impacts during UN Climate Week NYC 2023, provides a set of almost 100,000 “value factors” for converting environmental impacts into monetary terms.  
 
 The GVFD covers 430 different environmental impacts across four main categories of impact: air pollution, land use and conversion, waste and water pollution . With the exception of the value factor for greenhouse gas emissions, for which a single value factor is provided ($236/tco2e), the value factors are geographically stratified (in other words, the value factors are both impact-specific and geolocation-specific).  In total, there are 268 geolocations in the dataset reflecting all the world's recognised sovereigns as well as some international dependencies. In addition, one set of value factors, air pollution, provides data at the level of US states. 
