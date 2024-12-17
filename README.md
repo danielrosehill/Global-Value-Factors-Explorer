@@ -6,6 +6,17 @@ The Global Value Factors Database, released by the [International Foundation for
 
 The GVFD covers 430 different environmental impacts across four main categories of impact: air pollution, land use and conversion, waste and water pollution . With the exception of the value factor for greenhouse gas emissions, for which a single value factor is provided ($236/tco2e), the value factors are geographically stratified (in other words, the value factors are both impact-specific and geolocation-specific). In total, there are 268 geolocations in the dataset reflecting all the world's recognised sovereigns as well as some international dependencies. In addition, one set of value factors, air pollution, provides data at the level of US states. 
 
+## Link To Composites
+
+| Format  | Link |
+|---------|------|
+| ![CSV](https://img.shields.io/badge/Format-CSV-blue) | [link](https://raw.githubusercontent.com/danielrosehill/Global-Value-Factors-Explorer/refs/heads/main/Data/GVFD-Deriv/data/composite-data/all-formats/composite_value_factors.csv) |
+| ![JSON](https://img.shields.io/badge/Format-JSON-blue) | [link](https://raw.githubusercontent.com/danielrosehill/Global-Value-Factors-Explorer/refs/heads/main/Data/GVFD-Deriv/data/composite-data/all-formats/composite_value_factors.json) |
+| ![Parquet](https://img.shields.io/badge/Format-Parquet-blue) | [link](https://github.com/danielrosehill/Global-Value-Factors-Explorer/raw/refs/heads/main/Data/GVFD-Deriv/data/composite-data/all-formats/composite_value_factors.parquet) |
+
+
+---
+
 The value factors are intended for use by account preparers preparing financial statements which integrate their environmental and social impacts alongside their traditional financial impacts, unifying all their holistic impacts into one set of financial calculations  While the GVFD covers only environmental factors, a key part of the IFVI's mission is also developing methodologies for quantifying social impacts. 
 
 The main categories of impact covered in the dataset are as follows:
