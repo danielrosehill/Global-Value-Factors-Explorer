@@ -12,6 +12,10 @@
         {
             "filePath": "site-root/docs",
             "group": "Default"
+        },
+        {
+            "filePath": "Data/GVFD-Deriv/data",
+            "group": "Default"
         }
     ]
 }
