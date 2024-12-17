@@ -6,13 +6,17 @@ The Global Value Factors Database, released by the [International Foundation for
 
 The GVFD covers 430 different environmental impacts across four main categories of impact: air pollution, land use and conversion, waste and water pollution . With the exception of the value factor for greenhouse gas emissions, for which a single value factor is provided ($236/tco2e), the value factors are geographically stratified (in other words, the value factors are both impact-specific and geolocation-specific). In total, there are 268 geolocations in the dataset reflecting all the world's recognised sovereigns as well as some international dependencies. In addition, one set of value factors, air pollution, provides data at the level of US states. 
 
-## Link To Composites
+# File Links
 
-| Format  | Link |
-|---------|------|
-| ![CSV](https://img.shields.io/badge/Format-CSV-blue) | [link](https://raw.githubusercontent.com/danielrosehill/Global-Value-Factors-Explorer/refs/heads/main/Data/GVFD-Deriv/data/composite-data/all-formats/composite_value_factors.csv) |
-| ![JSON](https://img.shields.io/badge/Format-JSON-blue) | [link](https://raw.githubusercontent.com/danielrosehill/Global-Value-Factors-Explorer/refs/heads/main/Data/GVFD-Deriv/data/composite-data/all-formats/composite_value_factors.json) |
-| ![Parquet](https://img.shields.io/badge/Format-Parquet-blue) | [link](https://github.com/danielrosehill/Global-Value-Factors-Explorer/raw/refs/heads/main/Data/GVFD-Deriv/data/composite-data/all-formats/composite_value_factors.parquet) |
+ The following direct links resolve to the concatenated composite version of the data set, spanning all of the parameters across the different methodologies. 
+
+ The `CSV` is approximately 10 MB, the `JSON` approximately 20 MB and the `parquet` file is < 1MB.
+
+ These links might be helpful if you are trying to integrate these values with an external source.
+
+[![csv](https://img.shields.io/badge/csv-blue)](https://raw.githubusercontent.com/danielrosehill/Global-Value-Factors-Explorer/refs/heads/main/Data/GVFD-Deriv/data/composite-data/all-formats/composite_value_factors.csv)  
+[![json](https://img.shields.io/badge/json-green)](https://raw.githubusercontent.com/danielrosehill/Global-Value-Factors-Explorer/refs/heads/main/Data/GVFD-Deriv/data/composite-data/all-formats/composite_value_factors.json)  
+[![parquet](https://img.shields.io/badge/parquet-orange)](https://github.com/danielrosehill/Global-Value-Factors-Explorer/raw/refs/heads/main/Data/GVFD-Deriv/data/composite-data/all-formats/composite_value_factors.parquet)
 
 
 ---
